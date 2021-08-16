@@ -16,8 +16,11 @@ import com.jaimetorres.service.IServicioArtista;
 
 import javassist.NotFoundException;
 
-
-
+/**
+ * 
+ * @author David Arias
+ *esta clase es la que controla y hace el llamado a los  servicios.
+ */
 
 @RestController
 @RequestMapping("/artista")

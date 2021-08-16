@@ -12,7 +12,11 @@ import com.jaimetorres.repository.IObraRepo;
 import com.jaimetorres.service.IServicioArtista;
 
 import javassist.NotFoundException;
-
+/**
+ * clase que contiene los servicios rest.
+ * @author David Arias
+ *
+ */
 @Service
 public class ServicioArtista implements IServicioArtista{
 
