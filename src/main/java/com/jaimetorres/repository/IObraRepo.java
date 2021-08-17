@@ -16,6 +16,6 @@ public interface IObraRepo extends JpaRepository<Obra, Integer>{
 	@Query(value = "select * from obra where id_artista =:id and pais = 'colombia'", nativeQuery = true)				
 	List<Obra> buscarObra(@Param("id") Integer id);
 	
-	@Query(value = "select o from Obra o where o.artista.id =:id and pais = 'colombia'")
-	List<Obra> buscarObra1(Integer id);
+	//@Query(value = "select o from Obra o where o.artista.id =:id and pais = 'colombia'")
+	//List<Obra> buscarObra1(Integer id);
 }
