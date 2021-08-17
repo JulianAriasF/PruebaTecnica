@@ -8,9 +8,11 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
-
-
-
+/**
+ * Clase que contiene la entidad para Obra
+ * @author David Arias
+ *
+ */
 @Entity
 @Table(name = "obra")
 public class Obra {

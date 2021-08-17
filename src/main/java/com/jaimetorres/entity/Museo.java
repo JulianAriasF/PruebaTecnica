@@ -6,7 +6,11 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
-
+/**
+ * Clase que contiene la entidad para Museo
+ * @author David Arias
+ *
+ */
 @Entity
 @Table(name = "museo")
 public class Museo {

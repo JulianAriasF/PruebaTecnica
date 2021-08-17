@@ -4,7 +4,11 @@ import java.io.Serializable;
 
 import javax.persistence.Embeddable;
 import javax.persistence.ManyToOne;
-
+/**
+ * Clase que contiene la entidad de la tabla intermedia entre museo y obra.
+ * @author David Arias
+ *
+ */
 @Embeddable
 public class MuseoObraPk implements Serializable {
 

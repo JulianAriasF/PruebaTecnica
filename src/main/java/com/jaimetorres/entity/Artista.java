@@ -6,7 +6,11 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
-
+/**
+ * Clase que contiene la entidad para Artista
+ * @author David Arias
+ *
+ */
 @Entity
 @Table(name = "artista")
 public class Artista {

@@ -2,15 +2,16 @@ package com.jaimetorres;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import javax.validation.constraints.AssertTrue;
-
-import org.assertj.core.api.Assert;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import com.jaimetorres.serviceImp.ServicioArtista;
-
+/**
+ * clase para hacer los test de prueba a los servicios y funciones 
+ * @author David Arias
+ *
+ */
 @SpringBootTest
 class PruebaTecnicaApplicationTests {
 
